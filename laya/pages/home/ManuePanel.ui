@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"View",
-    "selectedBox":2,
-    "selecteID":6,
+    "selectedBox":1,
+    "selecteID":36,
     "props":{"width":750,"sceneColor":"#cccccc","height":1334},
     "nodeParent":-1,
     "label":"View",
@@ -15,80 +15,141 @@
         {
             "x":15,
             "type":"Tab",
-            "props":{"y":1186,"x":0,"width":750,"space":151,"selectedIndex":0,"name":"item0,item1,item2,item3","height":148},
+            "props":{"y":1234,"x":0,"width":750,"var":"tab_bar","selectedIndex":0,"height":100},
             "nodeParent":1,
-            "label":"Tab(item0,item1,item2,item3)",
-            "isOpen":true,
+            "label":"Tab(tab_bar)",
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
-            "compId":2,
+            "compId":26,
             "child":[
                 {
-                    "x":30,
                     "type":"Label",
-                    "props":{"y":0,"x":0,"width":750,"var":"bgMask","height":148,"bgColor":"#ffffff"},
-                    "nodeParent":2,
+                    "props":{"y":0,"x":0,"width":750,"var":"bgMask","height":100,"bgColor":"#ffffff"},
+                    "nodeParent":26,
                     "label":"Label(bgMask)",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":10,
+                    "compId":31,
                     "child":[
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Button",
-                    "props":{"y":24,"x":46,"var":"btn_game","stateNum":"2","skin":"res/home/btn_home_game.png","scaleY":1.5,"scaleX":1.5},
-                    "nodeParent":2,
-                    "label":"Button(btn_game)",
+                    "props":{"y":21,"x":50,"stateNum":"2","skin":"res/home/btn_home_game.png","name":"item0"},
+                    "nodeParent":26,
+                    "label":"Button(item0)",
+                    "isOpen":true,
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":3,
+                    "compId":27,
                     "child":[
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Button",
-                    "props":{"y":23,"x":226,"var":"btn_social","stateNum":"2","skin":"res/home/btn_home_social.png","scaleY":1.5,"scaleX":1.5},
-                    "nodeParent":2,
-                    "label":"Button(btn_social)",
+                    "props":{"y":20,"x":240,"stateNum":"2","skin":"res/home/btn_home_social.png","name":"item1"},
+                    "nodeParent":26,
+                    "label":"Button(item1)",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":4,
+                    "compId":28,
                     "child":[
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Button",
-                    "props":{"y":20,"x":418,"var":"btn_rank","stateNum":"2","skin":"res/home/btn_home_rank.png","scaleY":1.5,"scaleX":1.5},
-                    "nodeParent":2,
-                    "label":"Button(btn_rank)",
+                    "props":{"y":18,"x":440,"stateNum":"2","skin":"res/home/btn_home_rank.png","name":"item2"},
+                    "nodeParent":26,
+                    "label":"Button(item2)",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":5,
+                    "compId":29,
                     "child":[
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Button",
-                    "props":{"y":23,"x":603,"var":"btn_my","stateNum":"2","skin":"res/home/btn_home_social.png","scaleY":1.5,"scaleX":1.5},
-                    "nodeParent":2,
-                    "label":"Button(btn_my)",
+                    "props":{"y":20,"x":635,"stateNum":"2","skin":"res/home/btn_home_social.png","name":"item3"},
+                    "nodeParent":26,
+                    "label":"Button(item3)",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":6,
+                    "compId":30,
                     "child":[
                         ]
                 }]
+        },
+        {
+            "x":15,
+            "type":"Button",
+            "props":{"y":1234,"x":0,"width":185,"var":"btn_game","height":100},
+            "nodeParent":1,
+            "label":"Button(btn_game)",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":15,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Button",
+            "props":{"y":1234,"x":187,"width":185,"var":"btn_social","height":100},
+            "nodeParent":1,
+            "label":"Button(btn_social)",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":19,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Button",
+            "props":{"y":1234,"x":382,"width":185,"var":"btn_rank","height":100},
+            "nodeParent":1,
+            "label":"Button(btn_rank)",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":20,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Button",
+            "props":{"y":1234,"x":567,"width":185,"var":"btn_my","height":100},
+            "nodeParent":1,
+            "label":"Button(btn_my)",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":21,
+            "child":[
+                ]
+        },
+        {
+            "x":15,
+            "type":"Panel",
+            "props":{"y":0,"x":0,"width":750,"var":"list_manue","height":1234,"hScrollBarSkin":"res/shell/hscroll.png"},
+            "nodeParent":1,
+            "label":"Panel(list_manue)",
+            "isDirectory":false,
+            "isAniNode":true,
+            "hasChild":false,
+            "compId":36,
+            "child":[
+                ]
         }],
     "animations":[
         {
